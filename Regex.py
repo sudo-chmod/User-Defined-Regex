@@ -135,7 +135,7 @@ def startwith_kmp_search(text, pattern):
 
 
 def endwith_kmp_search(text, pattern):
-    pattern = pattern[1:]
+    pattern = pattern[:-1]
     text += '\0'
     i = 0
     j = 0
