@@ -14,6 +14,7 @@ This Python program implements a pattern matching algorithm using the Knuth-Morr
 1. Clone this repository to your local machine.
 2. Place pattern files (e.g., `pattern1.txt`, `pattern2.txt`, etc.) inside the `Inputs/Patterns` directory.
 3. Place text files (e.g., `text1.txt`, `text2.txt`, etc.) inside the `Inputs/Texts` directory.
+4. Number of pattern files and text files must be same.
 
 ## Usage
 
