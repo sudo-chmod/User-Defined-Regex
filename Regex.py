@@ -155,7 +155,7 @@ def endwith_kmp_search(text, pattern):
             if pattern[j] == text[i]:
                 i += 1
                 j += 1
-                if j == len(pattern) and (text[i] in sign):
+                if j == len(pattern) and not text[i].isalpha():
                     positionList.append([lineNumber, k])
                     j = lps[j - 1]
             else:
